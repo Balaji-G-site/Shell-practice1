@@ -31,7 +31,7 @@ else
 fi
 
 dnf list installed nginx
-if [ $? -nq 0 ]
+if [ $? -ne 0 ]
 then 
     echo "nginx is not installed...going to install"
     dnf install nginx
