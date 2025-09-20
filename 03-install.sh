@@ -12,7 +12,7 @@ fi
 
 dnf list installed mysql
 
-if [ $? -nq 0 ]
+if [ $? -ne 0 ]
     then
         echo "Mysql is going to...install"
         
