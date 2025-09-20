@@ -48,5 +48,6 @@ then
     VALIDATE $? "python3"
 else
     echo " Python3 is already installed...nothing to do"
+fi
 
 
